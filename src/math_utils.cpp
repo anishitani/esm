@@ -8,7 +8,7 @@
 #ifndef MATH_TOOLS_CPP_
 #define MATH_TOOLS_CPP_
 
-#include <math_tools.h>
+#include "../include/math_utils.h"
 
 void gradient(cv::Mat I, cv::Mat &Ix, cv::Mat &Iy)
 {

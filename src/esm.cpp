@@ -5,18 +5,14 @@
  *      Author: nishitani
  */
 
-#include <unsupported/Eigen/MatrixFunctions>
-#include <Eigen/Core>
-#include <opencv2/core/eigen.hpp>
-#include <esm.h>
-#include <ctime>
-
 /*
  * TODO Alteraçõe iniciadas, mas não terminadas.
  * Precisa terminar a alteração da forma de aquisição do tamanho da imagem.
  * Manter armazenada a última imagem de maneira que a cada iteração somente a
  * nova imagem seja passada.
  */
+
+#include <esm.h>
 
 void ESM::createGenerators() {
 	A.clear();

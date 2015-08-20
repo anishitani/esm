@@ -14,14 +14,15 @@
 
 /**
  * Public method for inverting a submatrix.
+ *
  * @param m Matrix
- * @param init_x Starting X point
- * @param init_y Starting Y point
- * @param w Width
- * @param h Height
- * @return Matrix with submatrix inverted
+ * @param x Uppermost left x coordinate
+ * @param y Uppermost left y coordinate
+ * @param w Submatrix width
+ * @param h Submatrix height
+ * @return Inverted submatrix
  */
-cv::Mat invSubmatrix(cv::Mat m, int init_x, int init_y, int w, int h);
+cv::Mat invSubmatrix(cv::Mat m, int x, int y, int w, int h);
 
 /**
  * Public method for writting OpenCV matrices of type T.

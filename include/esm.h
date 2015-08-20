@@ -12,9 +12,15 @@
 #include <vector>
 
 #include <opencv2/opencv.hpp>
+#include <opencv2/core/eigen.hpp>
 
-#include <math_tools.h>
+#include <unsupported/Eigen/MatrixFunctions>
+#include <Eigen/Core>
+
+#include <ctime>
+
 #include <matrix_utils.h>
+#include <math_utils.h>
 
 class ESM {
 private:
