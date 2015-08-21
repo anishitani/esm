@@ -212,8 +212,8 @@ bool ESM::updateSSDSE2Motion(cv::Mat TIRef, cv::Mat ICur, float width,
 
 	cv::Mat dT;
 	Eigen::Matrix<float, 4, 4> _xA;
-	cv::cv2eigen(xA, _xA);
-	cv::eigen2cv(Eigen::Matrix<float, 4, 4>(_xA.exp()), dT);
+//	cv::cv2eigen(xA, _xA);
+//	cv::eigen2cv(Eigen::Matrix<float, 4, 4>(_xA.exp()), dT);
 
 	T = T * dT;
 

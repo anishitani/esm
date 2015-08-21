@@ -1,5 +1,9 @@
+INCLUDE(biicode/cmake/tools)
 
 ADD_BII_TARGETS()
+
+# Calling specific macro to activate c++11 flags
+ACTIVATE_CPP11(INTERFACE ${BII_BLOCK_TARGET})
 
 ###############################################################################
 #      HELP                                                                   #
